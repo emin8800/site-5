@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro";
+    
+}
+
+body{
+    background-color:  #F7F7F8;
+}
+    
+a{
+    color: #262626;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.contanier{
+    width: 80%;
+    margin: auto;
+    
+}
+.header-page{
+    background-color: #FF9500;
+    margin-top: 20px;
+    display: flex;
+    gap: 23px;
+    padding: 14px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    
+
+}
+.header-page>h1{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+/*     Nav       */
+
+.nav-page{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+     
+}
+
+.nav-page ul{
+    list-style: none;
+    display: flex;
+    gap: 26px;
+    padding: 7px 24px;
+ 
+}
+
+.logo{
+    background-color:  #FF9500;
+    
+}
+
+.user-page{
+    display: flex;
+    gap: 30px;
+    margin-left: auto; 
+    
+    
+}
+.btnS{
+    color: #000;
+    text-decoration: none;
+    background-color: #FF9500;
+    padding: 14px 30px; 
+    border-radius: 8px;
+  
+    
+}
+.btnL{
+    color: #000;
+    text-decoration: none;
+    padding: 14px 0px; 
+}
+.menu{ 
+    display: none;
+
+}
+.information-page {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.ico {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 20px; 
+    border: 1px solid  #F1F1F3;
+    background-color: #FCFCFD;
+    border-radius: 11px;
+    padding: 14px 30px 14px 20px;
+
+}
+
+.ico .icon {
+    background-color: #FFF4E5;
+    border-radius: 6px;
+    width: 34px;
+    height: 34px;
+    padding: 10px; 
+    margin-right: 10px;
+    
+}
+
+.ico > h2 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center; 
+    margin: 0; 
+    border-radius: 11px;
+  
+}
+.information-page h4{
+    color:#262626;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 150%; 
+    
+}
+.information-page p{
+    color:  #262626;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%; 
+    margin-top: 10px;
+}
+
+.social-page{
+    display: flex;
+    margin-top: 60px;
+    text-decoration: none;
+}
+
+.social-page .EC{
+    color: #fff;
+   font-size: 18px;
+    text-decoration: none;
+    background:#FF9500;
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+}
+.social-page .VP{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 18px 24px; 
+    font-size: 18px;
+  
+    border: 1px solid  #F1F1F3;
+    background-color: #FCFCFD;
+   
+}
+.social-page .EC:hover{
+    background-color: #e0a04c;
+}
+.social-page .VP:hover{
+    background-color: #dcdcdc;
+}
+.cart-page{
+    margin-top: 30px;
+    border-radius: 12px;
+    border: 1px solid #F1F1F3;
+    background: #FCFCFD;   
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    
+    
+}
+.cart-page img{ 
+    padding: 30px 40px;
+    gap: 30px;
+   
+    
+}
+
+.cart-page img:nth-child(2n+2){
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+
+.img-page img{
+    width: 100%;
+    margin-top: 30px;
+}
+.benefits-page{
+    margin-top: 60px;
+    
+    
+}
+.benefits-page h2{
+    color:#262626;
+    font-size: 38px;
+    font-weight: 600; 
+      
+}
+.benefits-page p{
+    color:#59595A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; 
+    
+}
+.benefits-page a {
+    float: right; 
+    text-decoration: none;
+    color:  #262626;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #F1F1F3;
+    background:  #FCFCFD;
+    padding: 14px 20px;
+    display: inline-block ;
+}   
+.paket {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+.paket {
+   
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.lorem-page {
+    width: 100%;
+    height:auto;
+    border-radius: 12px;
+   
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.lorem-page h3 {
+    text-align: right;
+    color: #262626;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.lorem-page h4 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.lorem-page p {
+    color: #4C4C4D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.lorem-page svg {
+    float: right;
+   
+}
+.benefits-page{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+
+.full-page {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px; 
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+
+.course-cart {
+    
+    max-width: 100%;
+    border-radius: 12px;
+    border: 1px solid #F1F1F3;
+    background:  #FFF;
+}
+
+.course-cart img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+.course-details {
+    padding: 20px; 
+}
+
+.course-details .flex {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.course-details .flex p {
+    margin: 0; 
+    font-size: 18px; 
+    color: #4C4C4D; 
+}
+
+
+.course-details .block h4 {
+    margin-top: 10px;
+    font-size: 24px; 
+    color: #262626; 
+}
+
+.course-details .block p {
+    margin-top: 10px; 
+    font-size: 18px; 
+    color: #4C4C4D; 
+}
+
+.course-details .block a {
+    display: inline-block; 
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    background-color: #007BFF; 
+    color: #fff; 
+    text-decoration: none; 
+    border-radius: 5px;
+    font-weight: bold; 
+    transition: background-color 0.3s ease; 
+}
+
+.course-details .block a:hover {
+    background-color: #0056b3; 
+}
+
+.teacher-page{
+    margin-top: 80px;    
+}
+.fulls{
+   
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px; 
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+
+.teacher {
+    
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+.teacher img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+.teacher a{
+    margin-left: auto;
+    text-decoration: none;
+    color: black;
+    border-radius: 8px;
+    border: 1px solid #F1F1F3;
+    background:  #F7F7F8;
+    padding: 18px 24px;
+  
+}
+.teacher h2{
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 300%; /* 27px */
+}
+
+.teacher-page{
+    width: 100%;
+    
+    background-color: #FFF;
+}
+
+.fulls-page {
+    display: flex;
+    gap: 30px; 
+    padding: 80px;
+    border-radius: 12px;
+    clear: both;
+}
+
+.carts {
+    width: calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 8px; 
+    border-radius: 12px;
+    border: 1px solid #F1F1F3;
+    background: #FCFCFD;
+   
+}
+.carts h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    padding: 12px 22px;
+    align-self: stretch;
+    border-radius: 6px;
+    border: 1px solid  #FFEACC;
+    background:  #FFF9F0;
+}
+
+.carts h2, .carts h5 {
+    text-align: center;
+}
+.carts-mini{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.carts-mini>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.carts-mini>ul>li{
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    display: flex;
+    padding: 14px;
+    align-items: center;
+
+
+}
+.carts-mini>ul>li>svg{
+    width: 20px;
+    
+}
+ul{
+    list-style-type: none;
+    border-radius: 8px;
+
+    
+}
+.carts svg{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    padding: 6px;
+    border-radius: 6px;
+    background: #FFF4E5;
+}
+
+
+.carts p{
+    width: 100%;
+    color: #4C4C4D;
+    font-size: 18px;
+    
+}
+
+.carts .svgx{
+    border-radius: 6px;
+    border: 1px solid #F1F1F3;
+    background-color:  #F1F1F3;
+}
+
+
+.footer {
+    background-color: #F7F7F8;
+    padding: 100px 50px 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E0E0E0;
+    flex-wrap: wrap;
+    gap: 50px; 
+}
+
+.footer .column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer .column h3 {
+    color: #262626;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer .column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .column ul li {
+    margin-bottom: 10px;
+}
+
+.footer .column ul li a {
+    color: #59595A;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer .column ul li a:hover {
+    color: #FFA500; 
+}
+
+.footer .footer-info {
+    text-align: left;
+   
+}
+
+.footer .footer-info img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.footer .footer-info p {
+    color: #59595A;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.footer .social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.footer .social-icons-head {
+  margin-left: 25px; 
+    margin-bottom: 10px;
+}
+
+.footer .social-icons-row {
+    display: flex;
+    gap: 10px; 
+}
+
+.footer .social-icons a {
+    color: #59595A;
+    font-size: 24px;
+    margin: 5px;
+    border-radius: 8px;
+    border: 1px solid #F1F1F3;
+    background: #e8e8e8;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    color: #59595A;
+    font-size: 14px;
+    width: 100%;
+    max-width: 1200px;
+}
